@@ -1,0 +1,7 @@
+<button mat-raised-button (click)="bookSerivce.openAddDialog()">
+  Добавить книгу
+</button>
+<div class="books-container">
+  <p class="faded-text" *ngIf="!(books$ | async)?.length">Список пуст</p>
+  <app-book *ngFor="let book of books$ | async" [bookInfo]="book"></app-book>
+</div>

@@ -1,0 +1,12 @@
+<mat-card>
+  <mat-card-title>{{ bookInfo.name }}</mat-card-title>
+  <mat-card-subtitle>{{ bookInfo.author }}</mat-card-subtitle>
+  <mat-card-actions>
+    <button mat-button (click)="bookService.openEditDialog(bookInfo)">
+      Изменить
+    </button>
+    <button mat-button (click)="bookService.removeBook(bookInfo)">
+      Удалить
+    </button>
+  </mat-card-actions>
+</mat-card>
