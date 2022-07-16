@@ -1,6 +1,5 @@
 # BookProject
-Результат можно посмотреть [тут]
-(https://revesoid.github.io/test-books)
+Результат можно посмотреть [тут](https://reversoid.github.io/test-books)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.1.
 
